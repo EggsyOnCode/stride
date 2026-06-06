@@ -12,11 +12,16 @@ expo-env.d.ts
 # Native
 .kotlin/
 *.orig.*
+*.keystore
 *.jks
 *.p8
 *.p12
 *.key
 *.mobileprovision
+local.properties
+google-services.json
+credentials.json
+service-account*.json
 
 # Metro
 .metro-health-check*
@@ -31,7 +36,7 @@ yarn-error.*
 *.pem
 
 # local env files
-.env*.local
+.env*
 
 # typescript
 *.tsbuildinfo
@@ -39,3 +44,7 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# release artifacts (hosted on GitHub Releases, not committed)
+releases/**/*.apk
+releases/**/*.aab
