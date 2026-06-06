@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Monochrome (themed) icon: solid white silhouette on transparent, tinted by the OS -->
+  <g transform="translate(512 512) scale(0.78) translate(-512 -512)">
+    <circle cx="512" cy="512" r="348" fill="none" stroke="#ffffff" stroke-width="6"/>
+    <circle cx="512" cy="512" r="245" fill="none" stroke="#ffffff" stroke-width="6"/>
+    <polygon points="512,148 568,430 512,374 456,430" fill="#ffffff"/>
+    <polygon points="512,876 568,594 512,650 456,594" fill="#ffffff"/>
+    <line x1="166" y1="512" x2="218" y2="512" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+    <line x1="806" y1="512" x2="858" y2="512" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="512" cy="512" r="48" fill="#ffffff"/>
+  </g>
+</svg>

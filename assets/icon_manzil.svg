@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Background -->
+  <rect width="1024" height="1024" rx="230" fill="#1a1f3c"/>
+
+  <!-- Outer orbit rings -->
+  <circle cx="512" cy="512" r="348" fill="none" stroke="#818cf8" stroke-width="5" opacity="0.18"/>
+  <circle cx="512" cy="512" r="245" fill="none" stroke="#818cf8" stroke-width="5" opacity="0.28"/>
+
+  <!-- North arrow (bright white, pointing up) -->
+  <polygon points="512,148 568,430 512,374 456,430" fill="#ffffff" opacity="0.96"/>
+
+  <!-- South arrow (dim, indigo) -->
+  <polygon points="512,876 568,594 512,650 456,594" fill="#818cf8" opacity="0.28"/>
+
+  <!-- East tick -->
+  <line x1="166" y1="512" x2="218" y2="512" stroke="#818cf8" stroke-width="7" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- West tick -->
+  <line x1="806" y1="512" x2="858" y2="512" stroke="#818cf8" stroke-width="7" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Center pivot -->
+  <circle cx="512" cy="512" r="48" fill="#818cf8"/>
+  <circle cx="512" cy="512" r="24" fill="#ffffff"/>
+</svg>
